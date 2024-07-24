@@ -1,0 +1,29 @@
+{
+  "User": [
+    {
+      "id": "8736",
+      "username": "adebolade",
+      "email": "bolade@gmail.com",
+      "password": "bolade"
+    },
+    {
+      "id": "1de4",
+      "username": "tolani",
+      "email": "tolani@gmail.com",
+      "password": "bolade"
+    },
+    {
+      "id": "e48c",
+      "username": "aishta",
+      "email": "aishat@gmail.com",
+      "password": "bolade"
+    },
+    {
+      "id": "600e",
+      "username": "bolade",
+      "email": "lolade@gmail.com",
+      "password": "bolade"
+    }
+  ],
+  "product": []
+}

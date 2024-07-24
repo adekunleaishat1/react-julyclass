@@ -3,6 +3,7 @@ import { useState } from 'react'
 import mystyl from './Mystyl'
 import { FaBeer } from 'react-icons/fa'
 import im1 from "./Screenshot 2023-10-05 095802.png"
+import Navbar from './Navbar'
 
 const Home = () => {
   let name = "ola"
@@ -29,6 +30,7 @@ const Home = () => {
   }
   return (
     <div>
+      <Navbar/>
       <h1>
         { login ? "welcome User": "loading..."}
       </h1>
