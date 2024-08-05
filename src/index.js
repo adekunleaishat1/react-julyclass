@@ -15,6 +15,10 @@ import Landing from './Landing';
 import Http from './Http';
 import Oneproduct from './Oneproduct';
 import User from './User';
+import Formik from './Formik';
+import FormikLogin from './FormikLogin';
+import Music from './Music';
+import Product from './Product';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +29,10 @@ root.render(
       <Route path='/http'  element={ <Http/>} />
       <Route path='/one/:id'  element={ <Oneproduct/>} />
       <Route path='/user'  element={ <User/>} />
+      <Route path='/form'  element={ <Formik/>} />
+      <Route path='/formlogin'  element={ <FormikLogin/>} />
+      <Route path='/music'  element={ <Music/>} />
+      <Route path='/product'  element={ <Product/>} />
        
       <Route path='/*'  element={ <Notfound/>} />
       <Route path='/landingpage'  element={ <Landing/>} >
