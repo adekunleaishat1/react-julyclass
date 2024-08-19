@@ -19,10 +19,14 @@ import Formik from './Formik';
 import FormikLogin from './FormikLogin';
 import Music from './Music';
 import Product from './Product';
+import { Provider } from 'react-redux';
+import Store from './Redux/Store';
+import Allproduct from './Allproduct';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Provider store={Store}>
     <BrowserRouter>
     <Routes>
       <Route path='/'  element={ <App/>} />
@@ -33,6 +37,7 @@ root.render(
       <Route path='/formlogin'  element={ <FormikLogin/>} />
       <Route path='/music'  element={ <Music/>} />
       <Route path='/product'  element={ <Product/>} />
+      <Route path='/allproduct'  element={ <Allproduct/>} />
        
       <Route path='/*'  element={ <Notfound/>} />
       <Route path='/landingpage'  element={ <Landing/>} >
@@ -41,6 +46,7 @@ root.render(
       </Route>
     </Routes>
     </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 );
 
